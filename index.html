@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <section>
+        
+        <div class="container">
+            <div class="card front-face">
+                <header>
+                    <span class="logo">
+                        <img src="Mastercard-Logo.webp" alt="">
+                        <h5>Master Card</h5>                        
+                    </span>
+                    <img src="file (1).png" alt="" class="chip">
+                </header>
+
+                <div class="card-details">
+                    <div class="name-number">
+                        <h6>Card Number</h6>
+                        <h5 class="number">8059 2037 9060 1514</h5>
+                        <h5 class="name">HABBIBUR RAHMAN A</h5>
+                    </div>
+                    <div class="valid-date">
+                        <h6>Valid Thru</h6>
+                        <h5>04/29</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card back-face">
+                <h6>
+                    For customer service call +900 1400 1800 or email at mastercard@gmai.com
+                </h6>
+                <span class="magnetic-strip">
+                    <div class="signature"><i>005</i></div>
+                    <h5>
+                        HDFC Millennia Credit Card
+                    </h5>
+                    <h6>Yours is a life where creating and living the moments matters more than making money.
+                    </h6>
+                </span>
+            </div>
+        </div>
+        <div class="content">
+            <h3>Enter Card Details:</h3>
+            <form action="">
+                <label for="name">Name on Card:</label>
+                <input type="text" id="name" placeholder="ex:David James" required>
+                <br>
+                <label for="number">Card Number:</label>
+                <input type="number" id="number" placeholder="1234 5678 9012 3456" required>
+                <br>
+                <label for="valid">Valid Thru:</label>
+                <input type="text" id="valid" placeholder="MM/YY" required>
+                <br>
+                <label for="cvv">CVV:</label>
+                <input type="number" id="cvv" placeholder="123" required>
+                <br>
+                <button class="btn">Click to Pay</button>
+                <div class="data">
+                    <a href="">Need Help</a>
+                    <a href="">Contact Us</a>
+                    <i style="color: royalblue;" class='bx bxl-facebook-circle'></i><i style="color: lightblue;" class='bx bxl-twitter' ></i><i style="color: royalblue;" class='bx bxl-telegram' ></i>
+                </div>
+                
+               
+            </form>
+            
+        </div>
+    </section>
+    
+
+
+</body>
+</html>
